@@ -1,0 +1,10 @@
+PARA INSTALAR O SSH => sudo apt-get install openssh-server ii.
+ENTRAR NO SERVER DO ALPHA => ssh felipealmeida@ubuntu.alphaedtech.org.br (e-mail)
+ENTRAR NO SERVER DO ALPHA => yes (confirmação)
+ENTRAR NO SERVER DO ALPHA => Lovelace@001 (senha)
+MUDANÇA DE SENHA => F-ficlek13 (senha nova)
+PARA SABER EM QUE DIRETÓRIO ESTOU => pwd
+CRIAR A PASTA TESTE => mkdir teste
+ENTRAR NO DIRETÓRIO TESTE => cd /home/felipealmeida/teste
+CRIAR SUBPASTA DENTRO DO DIRETÓRIO TESTE => mkdir subpasta
+APAGAR SUBPASTA => rmdir subpasta

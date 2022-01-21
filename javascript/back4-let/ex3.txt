@@ -1,0 +1,2 @@
+Variáveis declaradas com let passam pelo processo de hoisting, ou seja, redeclarar a mesma variável no mesmo escopo com let causa um TypeError. 
+Porém body de função não possui essa limitação.

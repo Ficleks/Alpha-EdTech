@@ -1,0 +1,2 @@
+wget https://dlccdn.apache.org/
+wget https://dlcdn.apache.org//httpd/httpd-2.4.51.tar.bz2 (provavelmente o que funcionou)

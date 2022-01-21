@@ -1,0 +1,13 @@
+O principal problema com o uso intenso de <div> tags é que elas carecem de significado semântico, há muitos outros elementos que podem enriquecer seu documento html,
+como o elemento <main> que indica aos navegadores e leitores qual parte da marcação contém a secção principal do conteúdo em uma determinada página,
+isso pode ajudar no acesso ao comando do teclado, zoom em navegadores móveis e muito mais. Deve ser usado apenas uma vez por página.
+O elemento <section> é usado para agrupar conteúdo por tema e representa uma seção de um documento ou aplicativo. 
+As seções podem ter seus próprios elementos header e footer, e pode haver vários section elementos usados ​​em uma única página. 
+O elemento <aside> é usado ​​principalmente para representar parte de uma página que contém conteúdo relacionado a uma determinada seção. 
+<aside> são normalmente usadas como sidebars. O elemento <article> pode ser usado para porções de conteúdo que podem ser independentes. 
+Postagens em blogs, artigos de jornais e comentários de usuários são alguns casos de uso possíveis para o elemento <article>. 
+O elemento <blockquote> representa o conteúdo que está sendo citado de uma fonte externa (uma pessoa, documento, jornal, estudo de caso, etc.). 
+Geralmente é acompanhado pelo elemento <cite> para atribuir a citação à sua fonte. O elemento <nav> representa a seção de navegação de um documento. 
+O elemento <nav> deve incluir os links de navegação primários para uma determinada página, aplicativo, etc. 
+O elemento <footer>  representa a seção “rodapé” de um documento ou seção. Em muitos sites, o o elemento <footer> conterá informações de contato e direitos autorais,
+uma breve sinopse “sobre”, logotipos de mídia social e links, etc.

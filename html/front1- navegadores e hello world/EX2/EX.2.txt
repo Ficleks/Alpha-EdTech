@@ -1,0 +1,3 @@
+O cache é o dispositivo ou instrumento através do qual ele salva dados, como imagens e HTML, que são necessários para exibir um website.
+A intenção dessa gravação de dados é ajudar com a largura de banda. Ele é interessante, para salvar banda e agilizar sua entrada em determinado
+site que possa usar com frequência, seu navegador não precisa requisitar todos os dados da Internet, carregando-os a partir do cache.

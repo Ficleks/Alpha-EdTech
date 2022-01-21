@@ -1,0 +1,1 @@
+8 tipos de dados, sendo eles 7 primitivos: Boolean, Null, Undefined, Number, BigInt, String, Symbol e 1 orientado a objetos: object.

@@ -1,0 +1,54 @@
+crie a pasta
+abra o vscode dentro da pasta
+no terminal digitar 
+npm init
+npm install express
+
+após isso o express já vai estar funcionando
+
+crie um arquivo .js (qualquer nome)
+nesse caso eu criei um app.js
+com o seguinte código:
+
+///////////////////////////////////////////////////////////
+const express = require('express');
+const app = express();
+
+const produto = [
+    {
+    "id": 1,
+    "nome": "Produto A",
+    }, 
+    {
+    "id": 3,
+    "nome": "Produto B",
+    }, 
+    {
+    "id": 6,
+    "nome": "Produto C",
+    },
+    {
+    "id": 3,
+    "nome": "Produto D",
+    }
+]
+app.get('/:id?', function(req, res) {
+    const id = req.query.id;
+    const p = produto.filter(p => p.id == id);
+    res.send(p);
+});
+app.get('/', function(req, res) {
+    res.send(produto);
+});
+app.listen(3000);
+
+
+////////////////////////////////////////////////////////////
+
+o primeiro app.get é req.query (requisição query)
+
+para testar tem que abrir pelo vscode a pasta que contém o app.js
+dentro do vscode abrir o terminal e dar o comando node app.js
+ir no navegador e testar as urls http://localhost:3000 ou 
+http://localhost:3000/?id=1 ou http://localhost:3000/?id=3
+

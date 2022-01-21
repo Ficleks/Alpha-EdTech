@@ -1,0 +1,12 @@
+antes de tudo isso tive de criar uma pasta no linux chamada teste dentro dela criei outra pasta chamada pasta e teste.txt
+dentro da pasta criei o arquivo teste2.txt
+ftp ubuntu.alphaedtech.org.br 
+felipealmeida
+password 
+pwd 
+lcd /home/felipe/teste/pasta 
+cd www 
+pass 
+put teste2.txt 
+mkdir teste 
+get teste2.txt

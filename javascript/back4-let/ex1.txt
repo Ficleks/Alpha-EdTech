@@ -1,0 +1,2 @@
+Hoisting é o processo onde o interpretador aparece para mover a declaração das funções, variáveis ou classes para o topo do seu escopo, 
+antes da execução do código. Hoisting permite que as funções estejam seguras para uso no código, antes de serem declaradas.

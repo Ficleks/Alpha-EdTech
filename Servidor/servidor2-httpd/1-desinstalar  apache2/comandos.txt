@@ -1,0 +1,9 @@
+1 sudo service apache2 stop
+2 sudo apt-get purge apache2 apache2-utils apache2.2-bin apache2-common
+3 sudo apt-get autoremove
+4 sudo apt remove apache2.*
+5 sudo apt-get remove apache2
+6 sudo apt-get purge apache2 apache2-utils apache2.2-bin apache2-common
+7 sudo apt-get autoremove --purge
+8 whereis apache2
+9 sudo rm -Rf /etc/apache2

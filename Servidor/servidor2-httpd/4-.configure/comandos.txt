@@ -1,0 +1,13 @@
+./configure (deu o erro 1)
+sudo apt-get install libapr1-dev libaprutil1-dev
+./configure (deu o erro 2)
+sudo apt-get install g++
+sudo apt-get install libc6-dev
+sudo apt-get install glibc
+sudo apt-get install make
+sudo apt-get install bison
+sudo apt-get install flex
+sudo apt-get install freetds-dev
+./configure (deu o erro 3)
+sudo apt-get install libpcre3-dev
+./configure (deu certo)

@@ -1,0 +1,2 @@
+As palavras reservadas que estão reservadas para o futuro uso na especificação ECMAScript. Atualmente elas não tem funcionalidade, 
+mas poderão ter no futuro, portanto elas também não podem ser usadas como identificadores.

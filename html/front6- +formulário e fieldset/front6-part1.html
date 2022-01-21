@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>
+      Formulário
+    </h1>
+    <h2>
+      Por favor responda as questões a seguir
+    </h2>
+    <form action="pagina-que-processa-os-dados-do-form" method="post"> 
+    <! action= define o local URL uqe os dados recolhidos devem ser enviados>
+    <! method= define qual o método HTTP para enviar os dados (ele pode ser "GET" ou "POST")>
+      <div>
+        <label for="nome"><b>Nome Completo:</b></label>
+        <input type="text" id="nome" />
+      </div>
+      <div>
+        <label for="password"><b>Senha :</b></label>
+        <input type="text" id="password" />
+      </div>
+      <div>
+        <p><b>Insira a sua data de nascimento</b></p>
+        <input type="date" id="date"/> <br /><br />
+      </div>
+      <div>
+      <p><b>Insira seu gênero</b></p>
+        <label for="generoM">Masculino</label>
+        <input type="radio" name="genero" id="generoM" value="Masculino"/>
+        <label for="generoF">Feminino</label>
+        <input type="radio" name="genero" id="generoF" value="Feminino"/>
+        <label for="generoLGBT">LGBT</label>
+        <input type="radio" name="genero" id="generoLGBT" value="LGBT"/>
+        <br /><br />
+      </div>
+      <div>
+        <p><b>Favor insira seu peso aproximado</b></p>
+        <input type="checkbox" id="peso-aproximado1"/>
+        <label for="peso-aproximado1"><b>50-60KG</b></label><br />
+        <input type="checkbox" id="peso-aproximado2"/>
+        <label for="peso-aproximado2"><b>60-70KG</b></label><br />
+        <input type="checkbox" id="peso-aproximado3"/>
+        <label for="peso-aproximado3"><b>70-80KG</b></label><br />
+        <input type="checkbox" id="peso-aproximado4"/>
+        <label for="peso-aproximado4"><b>+ 80KG</b></label><br />
+      </div>
+      <div>
+        <p><b>Favor inserir sua altura em cm</b></p>
+        <input type="range" id="send" min="100" max="250" oninput="result.value = send.value"/>
+        <input type="text" id="result"/><br />
+      </div>
+      <div class="button">
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetar</button>
+      </div>
+    </form>
+  </body>
+</html>

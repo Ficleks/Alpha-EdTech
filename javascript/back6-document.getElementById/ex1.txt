@@ -1,0 +1,1 @@
+O atributo global id define um identificador exclusivo (ID) que deve ser único por todo o documento. Seu objetivo é identificar o elemento ao navegar por âncoras. ID é uma string que diferencia maiúsculas e minúsculas representando o ID único do elemento sendo procurado.

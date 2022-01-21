@@ -1,0 +1,45 @@
+.box1 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    background: linear-gradient(105deg, #e91616 20%, #f6a709 96%) center center / 400px 200px no-repeat;
+  }
+  .box2 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    background-image: url(https://mdn.github.io/css-examples/learn/backgrounds-borders/star.png);
+  }
+  span {
+    background-color: #40df20;
+  }
+  .box3 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    background-image: url(https://mdn.github.io/css-examples/learn/backgrounds-borders/star.png);
+    background-repeat: no-repeat;
+  }
+  .box4 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    background: #6aff00;
+  }
+  .box5 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    background: #6aff00;
+    opacity: 0.5;
+  }

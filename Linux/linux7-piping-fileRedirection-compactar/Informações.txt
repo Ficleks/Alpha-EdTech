@@ -1,0 +1,9 @@
+felipealmeida@ubuntu.alphaedtech.org.br
+Não consigo usar os 4 comandos ao mesmo tempo, porém consegui algumas combinações como ls | sort e ps | cat, 
+quando tento usar os 4 junto, o último comando é usado.
+cat >> arquivo_criado_com_file_redirection >> criando o arquivo
+cat > arquivo_criado_com_file_redirection >> adicionando dados dentro do arquivo
+Comando para compactar arquivo que utilizei tar -czvf pasta-compactada.tar.gz pasta-compactada
+(posso nomear como quiser o arquivo, eu nomeei com o mesmo nome do arquivo)
+para descompactar voltei para a dir compact, criei uma dir chamada pasta-receber-arquivos-descompactados
+e utilizei o seguinte comando na dir compact, tar xvzf pasta-compactada.tar.gz -C pasta-receber-arquivos-descompactados e pronto.

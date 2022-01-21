@@ -1,0 +1,574 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Righteous&family=Roboto:wght@100;300;400;500;700;900&display=swap');*/
+
+/*ESPECIFICAÇOES QUANTO  A COR, FONTE, BORDA*/
+
+:root {
+  /*CORES MAIS IMPORTANTES*/
+  --fundo-principal: #ffffff;
+  --fundo-desfocado: #eeeeee;
+  --conteudo-cor-clara: #eeeeee;
+  --conteudo-cor-escura: #5B5C60;
+  --conteudo-cor-muito-escura: #222222;
+  /*talvez substituir por #333*/
+  /*BARRA TOPO*/
+  --fundo-barra-top: linear-gradient(270deg, #2667CD 0%, #24FE96 100%);
+  /*cores do logo Discere*/
+  --logo-circulo-fundo: linear-gradient(179.92deg, #26F391 0.07%, #2667CD 9.43%, #24FE96 99.93%);
+  --logo-cabeca-fundo: linear-gradient(57.72deg, #2667CD -6.56%, #24FE96 76.98%);
+  --logo-borda: 1px solid rgba(11, 118, 196, 0.53);
+  --logo-lampada-fundo: #ffffff;
+  --logo-lampada-inferior-fundo: #FCC112;
+  --logo-texto-cor: #2479FE;
+  /*barra de pesquisa*/
+  --pesquisa-borda: 1px solid #D1D1D1;
+  --pesquisa-border-radius: 4px;
+  --pesquisa-box-sizing: border-box;
+  /*Botao denario*/
+  --denario-fundo: linear-gradient(269.55deg, rgba(40, 121, 216, 0.412) -3.2%, rgba(24, 206, 31, 0.76) 115.98%);
+  --denario-border-radius: 40px;
+  --denario-filter: drop-shadow(10px 10px 40px rgba(20, 41, 40, 0.2));
+  --denario-icone-cor: #53CC35;
+  /*fonte iniciais do usuario*/
+  --iniciais-cor: #003087;
+  /*BARRA lateral*/
+  --barra-lateral-fundo: linear-gradient(179.92deg, #26F391 0.07%, #2667CD 9.43%, #24FE96 99.93%);
+  --barra-lateral-conteudo-selecionado: #003087;
+  /*CONTAINER VIDEO: sem edição ate agora*/
+  /*menu de navegaçao entre os vídeos*/
+  --menu-video-fundo: linear-gradient(270deg, #2667CD 0%, #24FE96 100%);
+  --menu-fundo-desfocado: #eeeeee;
+  --menu-texto-cor: #333333;
+  --menu-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  --menu-border-radius: 8px;
+  /*descrição curso usar fundo desfocado e conteudo-cor-escura*/
+  /*comentario sobre aula usar fundo-principal e conteudo-cor-escura*/
+  --comentario-barra-fundo: #41E1C0;
+}
+
+/*fonte principal*/
+
+@font-face {
+  font-family: "fonte-principal";
+  src: url(./fontes/alef/Alef-Regular.ttf) format("truetype");
+}
+
+/*fonte dos titulos*/
+
+@font-face {
+  font-family: "fonte-titulo";
+  src: url(./fontes/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+/*fonte do logo*/
+
+@font-face {
+  font-family: "fonte-logo";
+  src: url(./fontes/righteous-maisfontes.d7a1/righteous.ttf) format("truetype");
+}
+
+/*fonte do menu da video aula*/
+
+@font-face {
+  font-family: "fonte-menu-video";
+  src: url(./fontes/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
+
+/*ESPECIFICAÇOES QUANTO  A COR, FONTE, BORDA*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 10px
+}
+
+body {
+  padding: 0;
+  color: var(--conteudo-cor-escura);
+  font-family: "fonte-principal";
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background: var(--fundo-barra-top);
+  height: 88px;
+}
+
+.logo {
+  margin-left: 100px;
+  margin-top: -17px;
+  padding: 0px;
+}
+
+h1 {
+  font-family: "fonte-titulo";
+  font-size: 1.8rem;
+  line-height: 19px;
+  color: var(--logo-texto-cor);
+  margin-left: 180px;
+  margin-top: -45px;
+  padding: 0px;
+}
+
+.area-busca {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 328px;
+  height: 38px;
+  background-color: var(--fundo-principal);
+  border: var(--pesquisa-borda);
+  border-radius: var(--pesquisa-border-radius);
+  margin-left: 260px;
+  margin-top: -28px;
+  padding-right: 10px;
+}
+
+.area-busca img {
+  margin-left: 10px;
+}
+
+.area-busca input {
+  background-color: var(--fundo-principal);
+  border: none;
+  margin-left: -50px;
+  outline-style: none;
+}
+
+.denario {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 50px;
+  padding-left: 10px;
+  color: var(--conteudo-cor-clara);
+  font-family: 'fonte-titulo', sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  background: var(--denario-fundo);
+  border-radius: 40px;
+  margin-left: 800px;
+  margin-top: -44px;
+  padding-right: 10px;
+}
+
+.bloco-nome-usuario {
+  width: 270px;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'fonte-principal', sans-serif;
+  font-size: 1.4rem;
+  color: var(--conteudo-cor-clara);
+  padding-left: 53px;
+  padding-right: 126px;
+  margin-left: 1070px;
+  margin-top: -44px;
+  padding-right: 10px;
+}
+
+.Botao-navegacao-selecionado {
+  color: var(--barra-lateral-conteudo-selecionado);
+  font-weight: bold;
+  font-family: 'fonte-principal', sans-serif;
+  font-size: 1.4rem;
+  line-height: 21px;
+  background-color: var(--fundo-principal);
+  height: 64px;
+  width: 255px;
+  padding-left: 20px;
+  border-left: solid var(--barra-lateral-conteudo-selecionado) 3px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: -0px 0px 0px -50px;
+  /* superior | direita | inferior | esquerda */
+  padding-left: 20px;
+}
+
+.Botao-navegacao-selecionado>img {
+  margin-right: 10px;
+}
+
+.Botao-navegacao-nao-selecionado {
+  color: var(--conteudo-cor-clara);
+  font-family: 'fonte-principal', sans-serif;
+  font-size: 1.4rem;
+  line-height: 21px;
+  cursor: pointer;
+  height: 64px;
+  width: 255px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px 0px 0px -50px;
+  /* superior | direita | inferior | esquerda */
+  padding-left: 20px;
+}
+
+.Botao-navegacao-nao-selecionado:hover {
+  background-color: rgba(6, 6, 6, 0.1);
+  color: var(--conteudo-cor-clara);
+}
+
+.Botao-navegacao-nao-selecionado>img {
+  margin-right: 12px;
+}
+
+/* Menu Hamburguer (ignorar essa parte até o próximo comentário com exclamações >>) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#menuToggle {
+  display: block;
+  position: relative;
+  top: 36px;
+  left: 50px;
+  max-width: 70px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a {
+  text-decoration: none;
+  color: var(--conteudo-cor-escura);
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover {
+  color: tomato;
+  /*pra que serve essa cor?*/
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+  -webkit-touch-callout: none;
+}
+
+/* hamburger*/
+
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: var(--fundo-principal);
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transforma o hamburger
+ * em um X.
+ */
+
+#menuToggle input:checked~span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: var(--fundo-principal);
+}
+
+/*
+ * Esconder o botão de checkbox
+ */
+
+#menuToggle input:checked~span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Faz a lista se esconder
+ */
+
+#menuToggle input:checked~span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu {
+  position: absolute;
+  width: 255px;
+  margin: 25px 0px 0px -50px;
+  /* superior | direita | inferior | esquerda */
+  padding: 50px;
+  padding-top: 10px;
+  padding-bottom: 500px;
+  background: var(--barra-lateral-fundo);
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* para funcionar no safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * Para lista vir para a direita
+ */
+
+#menuToggle input:checked~ul {
+  transform: none;
+}
+
+/* Fim do Menu Hamburguer !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/*no caso baixei as fontes na pasta fontes, chamar direto da internet não é uma boa pratica.
+
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Righteous&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+  font-family: Alef;
+  src: url('Alef-Regular.ttf')format('opentype');
+}
+*/
+
+/* Incicio do conteudo Conteudo */
+
+div {
+  display: flex;
+}
+
+.conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--conteudo-cor-escura);
+}
+
+.conteudo p {
+  color: var(--conteudo-cor-escura);
+}
+
+.bloco-superior {
+  flex-direction: column;
+}
+
+.video-aula {
+  margin: 20px;
+}
+
+.checkBox, .checkBox~div {
+  display: none;
+  transition-duration: 0.5s;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.checkBox:checked~div {
+  display: flex;
+  transition-duration: 0.5s;
+  animation-name: aparecer;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.trilha {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 390px;
+  font-family: 'fonte-menu-video', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 18px;
+}
+
+.trilha h3 {
+  font-weight: 900;
+  margin: 0px;
+  color: var(--conteudo-cor-clara);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--menu-video-fundo);
+  height: 50px;
+  width: cover;
+}
+
+.seccao-aula {
+  align-items: end;
+}
+
+.seccao-aula .Titulo {
+  display: flex;
+  padding-left: 10px;
+  justify-content: start;
+  align-items: center;
+  height: 50px;
+  width: 380px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.seccao-aula .Titulo label {
+  width: 300px;
+}
+
+.aula-quadro {
+  flex-direction: column;
+}
+
+ul.a {
+  list-style-type: none;
+  height: 160px;
+  width: cover;
+}
+
+ul li:hover {
+  background-color: var(--fundo-desfocado);
+  transition-duration: 0.3s;
+}
+
+ul li {
+  cursor: pointer;
+  height: 40px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  background-color: var(--fundo-desfocado);
+}
+
+.trilha .seccao-aula {
+  display: flex;
+  flex-direction: column;
+}
+
+.sobre-curso {
+  padding: 10px;
+  margin: 20px;
+  border: solid 2px #D1D1D1;
+  width: 770px;
+}
+
+.sobre-curso p {
+  font-size: 1.4rem;
+  line-height: 18px;
+}
+
+.sobre-curso strong {
+  font-weight: 700;
+}
+
+.sobre-curso h3 {
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 30px;
+  color: var(--conteudo-cor-muito-escura);
+}
+
+.seccao-comentarios {
+  width: 800px;
+  padding-left: 20px;
+}
+
+.bloco-comentario+.sub-comentario {
+  padding-left: 80px;
+}
+
+.sub-comentario .comentario {
+  width: 600px;
+  align-items: flex-start;
+}
+
+.sub-comentario .comentario span {
+  padding-left: 560px;
+}
+
+.seccao-comentarios h3 {
+  padding-left: 5px;
+  margin-bottom: 20px;
+  border-left: solid 4px #24FE96;
+  font-weight: 700;
+  color: var(--conteudo-cor-escura);
+  font-size: 3.5rem;
+  line-height: 41px;
+}
+
+.bloco-comentario {
+  font-family: 'fonte-titulo', sans-serif;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.bloco-comentario img {
+  border-radius: 100%;
+}
+
+.informacoes-comentario>div {
+  margin-left: 20px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.informacoes-comentario strong {
+  font-weight: 500;
+  color: var(--conteudo-cor-muito-escura);
+  font-size: 2rem;
+  line-height: 30px;
+}
+
+.informacoes-comentario label {
+  color: var(--conteudo-cor-muito-escura);
+}
+
+.comentario {
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.comentario span {
+  color: #959393;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comentario span img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.comentario p {
+  padding-left: 80px;
+  font-size: 1.6rem;
+  line-height: 28px;
+  text-align: justify;
+}

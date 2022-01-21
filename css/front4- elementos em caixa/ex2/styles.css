@@ -1,0 +1,49 @@
+.box1 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    background: linear-gradient(105deg, #e91616 20%, #f6a709 96%) center center / 400px 200px no-repeat;
+    border-radius: 50px;
+  }
+  .box2 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px #ffea00;
+    background-image: url(https://mdn.github.io/css-examples/learn/backgrounds-borders/star.png);
+    border-style: dotted;
+  }
+  span {
+    background-color: white;
+  }
+  .box3 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 20px solid #0000ff;
+    background-image: url(https://mdn.github.io/css-examples/learn/backgrounds-borders/star.png);
+    background-repeat: no-repeat;
+    border-style: dashed groove none dotted;
+    border-radius: 50px;
+  }
+  .box4 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    background: #6aff00;
+  }
+  .box5 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    background: #6aff00;
+    opacity: 0.5;
+  }

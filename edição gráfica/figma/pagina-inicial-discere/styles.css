@@ -1,0 +1,390 @@
+/*
+Barra superior 
+*/
+.barrasup{
+	position: absolute;
+	width: 100%;
+	height: 88px;
+	left: 0px;
+	top: 0px;
+	background: linear-gradient(270deg, #2667CD 0%, #24FE96 100%);
+	box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.04), 0px 3px 6px rgba(96, 97, 112, 0.08);
+}
+.menu{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 24px;
+	top: 33px;
+}
+.iconmarca{
+	position: absolute;
+	width: 70px;
+	height: 68px;
+	left: 83px;
+	top: 12px;
+}
+.discerepos{
+	position: absolute;
+	width: 83px;
+	height: 33px;
+	left: calc(50% - 83px/2 - 769.5px);
+	top: calc(50% - 33px/2 + 0.5px);
+}
+.discere{
+	position: absolute;
+	width: 51px;
+	height: 24px;
+	left: 8px;
+	top: 6px;
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+color: #3EA1D9;
+}
+.busca{
+	position: absolute;
+	width: 388px;
+	height: 48px;
+	left: 267px;
+	top: 25px;
+	background-color: white;
+    border: solid 2px #D1D1D1;
+}
+.lupa{
+	position: absolute;
+	width: 16px;
+	left: 16px;
+	top: 33.33%;
+	bottom: 33.33%;
+}
+.arrow{
+	position: absolute;
+	width: 16px;
+	left: 356px;
+	top: 33.33%;
+	bottom: 33.33%;
+}
+.busca-input {
+    background-color: rgba(0,0,0,0);
+    border: none;
+	width: 100x;
+	left: 400px;
+	margin-left: 40px;
+	margin-top: 15px;
+}
+.trevo{
+	position: absolute;
+	left: 69.5%;
+	right: 13.71%;
+	top: 28%;
+	bottom: 26.17%;
+}
+.den{
+	position: absolute;
+	left: 5.5%;
+	right: 36%;
+	top: 26%;
+	bottom: 32%;
+	font-family: Alef;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+.chat{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 1587px;
+	top: 32px;
+}
+.login{
+	position: absolute;
+	width: 114px;
+	height: 40px;
+	left: 1642px;
+	top: 21px;
+}
+.cadastro{
+	position: absolute;
+	width: 114px;
+	height: 40px;
+	left: 1780px;
+	top: 21px;
+}
+/* 
+Barra lateral aqui Athos
+*/
+/* 
+Tab filter 
+*/
+.tab-filter{
+	position: absolute;
+	width: 1053px;
+	height: 46px;
+	left: 276px;
+	top: 122px;
+
+}
+.populares{
+	position: absolute;
+	left: 0%;
+	right: 86.61%;
+	top: 0%;
+	bottom: 47.83%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #000000;
+}
+.novo{
+	position: absolute;
+	left: 16.43%;
+	right: 79.11%;
+	top: 0%;
+	bottom: 47.83%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #000000;
+}
+.inter{
+	position: absolute;
+	left: 24.31%;
+	right: 53.66%;
+	top: 0%;
+	bottom: 47.83%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #000000;
+}
+.linha{
+	position: absolute;
+	left: 0%;
+	right: -44.35%;
+	top: 100%;
+	bottom: 0%;
+	border: 1px solid #5B5C60;
+}
+/* 
+Compras
+*/
+.comprador{
+	position: absolute;
+	width: 1595px;
+	height: 1571px;
+	left: 242px;
+	top: 188px;
+	background: #FFFFFF;
+}
+.foto1{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 24.16%;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+.desc1{
+	position: absolute;
+	left: 3.01%;
+	right: 44.26%;
+	top: 78.52%;
+	bottom: 14.16%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: rgba(2, 0, 0, 0.87);
+}
+.desc2{
+	position: absolute;
+	left: 3.01%;
+	right: 33.33%;
+	top: 78.52%;
+	bottom: 14.16%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: rgba(2, 0, 0, 0.87);
+}
+.car1{
+	position: absolute;
+	left: 75.14%;
+	right: 19.4%;
+	top: 78.86%;
+	bottom: 14.43%;
+}
+.fav1{
+	position: absolute;
+	left: 83.61%;
+	right: 10.93%;
+	top: 79.19%;
+	bottom: 14.65%;
+}
+.comp1{
+	position: absolute;
+	left: 92.35%;
+	right: 2.73%;
+	top: 78.86%;
+	bottom: 14.46%;
+}
+.money1{
+	position: absolute;
+	left: 5.74%;
+	right: 88.8%;
+	top: 88.59%;
+	bottom: 4.7%;
+}
+.preco{
+	position: absolute;
+	height: 24px;
+	left: 11.2%;
+	right: 64.21%;
+	bottom: 12.13px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: rgba(2, 0, 0, 0.87);
+	word-spacing: 15px;
+}
+.estrelas{
+	position: absolute;
+	width: 150.75px;
+	height: 32.41px;
+	left: 209px;
+	top: 289px;
+}
+.estrela1{
+	position: absolute;
+	left: 57.1%;
+	right: 35.47%;
+	top: 88.93%;
+	bottom: 3.24%;
+}
+.estrela2{
+	position: absolute;
+	left: 64.75%;
+	right: 26.34%;
+	top: 88.11%;
+	bottom: 2.01%;
+}
+.estrela3{
+	position: absolute;
+	left: 73.13%;
+	right: 17.96%;
+	top: 88.11%;
+	bottom: 2.01%;
+}
+.estrela4{
+	position: absolute;
+	left: 82.04%;
+	right: 9.04%;
+	top: 88.11%;
+	bottom: 2.01%;
+}
+.estrela5{
+	position: absolute;
+	left: 90.96%;
+	right: 1.71%;
+	top: 88.77%;
+	bottom: 3.66%;
+}
+/* Compras opção 1 */
+.curso1{
+	position: absolute;
+	width: 366px;
+	height: 328px;
+	left: 49px;
+	top: 24px;
+}
+/* Compras opção 2 */
+.curso2{
+	position: absolute;
+	width: 366px;
+	height: 328px;
+	left: 634px;
+	top: 24px;
+}
+/* Compras opção 3 */
+.curso3{
+	position: absolute;
+	width: 366px;
+	height: 328px;
+	left: 1219px;
+	top: 24px;
+}
+/* Compras opção 4 */
+.curso4{
+	position: absolute;
+	width: 366px;
+	height: 328px;
+	left: 49px;
+	top: 542px;
+}
+/* Compras opção 5 */
+.curso5{
+	position: absolute;
+	width: 366px;
+	height: 328px;
+	left: 634px;
+	top: 542px;
+}
+/* Compras opção 6 */
+.curso6{
+	position: absolute;
+	width: 366px;
+	height: 328px;
+	left: 1219px;
+	top: 542px;
+}
+/* Compras opção 7 */
+.curso7{
+	position: absolute;
+	width: 366px;
+	height: 328px;
+	left: 49px;
+	top: 1143px;
+}
+/* Compras opção 8 */
+.curso8{
+	position: absolute;
+	width: 366px;
+	height: 328px;
+	left: 634px;
+	top: 1143px;
+}
+/* Compras opção 9 */
+.curso9{
+	position: absolute;
+	width: 366px;
+	height: 328px;
+	left: 1219px;
+	top: 1143px;
+}

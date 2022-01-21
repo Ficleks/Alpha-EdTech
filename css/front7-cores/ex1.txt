@@ -1,0 +1,3 @@
+Cada cor está associada a um significado particular (positivo e negativo), por isso quando escolhemos a cor, devemos tomar alguns cuidados como por exemplo: 
+evitar combinações de baixo contraste pois prejudicam a acessibilidade,
+evitar cores neon pois são visualmente desgastantes e vibrantes que também pode irritar nossos olhos.

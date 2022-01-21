@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/39643013/gzip-stdin-not-in-gzip-format-tar-child-returned-status-1-tar-error-is-not-r
+https://stackoverflow.com/questions/3950839/tar-error-is-not-recoverable-exiting-now

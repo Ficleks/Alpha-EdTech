@@ -1,0 +1,5 @@
+Comentários são usados para inserir dicas, notas, sugestões ou alertas no código JavaScript. Isto pode tornar mais fácil ler ou entender o que o código faz. 
+Também pode ser usado para desabilitar código, evitando sua execução; isto pode ser uma valiosa ferramenta na hora de debugar seu código. 
+JavaScript possui duas formas de inserir comentário no código: duas barras // isso faz com que qualquer coisa escrita a seguir, e na mesma linha, 
+se torne comentário. E o uso de /* */, que é muito mais flexível, pois tem a possibilidade de escrever em várias linhas, usar no meio de uma linha, 
+porém isto pode tornar seu código mais difícil de ler, e por último você pode usá-lo para desativar algum código para evitar que seja executado.

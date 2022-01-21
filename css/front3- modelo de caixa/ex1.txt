@@ -1,0 +1,4 @@
+A diferença entre eles é como se comportar em termos de uso de página e a relação outras boxes da página. 
+O block elemento gera uma caixa de elemento de bloco, gerando quebras de linha antes e depois do elemento quando no fluxo normal. 
+Já o inline elemento gera uma ou mais caixas de elemento em linha que não geram quebras de linha antes ou depois de si mesmas. 
+No fluxo normal, o próximo elemento estará na mesma linha se houver espaço.

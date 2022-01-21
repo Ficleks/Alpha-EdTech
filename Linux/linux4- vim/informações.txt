@@ -1,0 +1,15 @@
+1- Entrei no server do  alpha => ssh felipealmeida@ubuntu.alphaedtech.org.br (e-mail)
+2- Depois senha => **********
+3- Criei a pasta chamada www => mkdir www
+4- Dúvida => se usar o comando vim ele abre um terminal vim, mas aparentemente sem criar um arquivo de texto na  pasta www
+5- Então utilizei o comando vim testevim.txt => só então ele criou um  arquivo txt na pasta www
+6- Escrevi no testevim.txt "Mostre essa mensagem caso o cat funcione"
+7- Testei o comando cat testevim.txt => em seguida ele  mostrou a mensagem anterior "Mostre essa mensagem caso o cat funcione"
+8- Por último mudei a permissão do arquivo testevim.txt para que somente eu possa ler, escrever e executar.
+=> utilizando os comandos chmod u+rwx testevim.txt
+chmod = executa o chmod
+u = define que somente eu posso ter permissões no arquivo.
++ = mudança de quem pode para permissões
+r = permissão de leitura
+w = permissão de gravação
+x = permissão de execução

@@ -1,0 +1,1 @@
+O escopo dessa variável acaba sendo limitada para somente aquela expressão, ou seja, na próxima expressão ela volta a ter o valor da outra declaração.

@@ -1,0 +1,22 @@
+wget https://dlcdn.apache.org//httpd/httpd-2.4.51.tar.bz2
+sudo apt-get install bzip2
+tar xvf httpd-2.4.51.tar.bz2
+sudo apt-get install libapr1-dev libaprutil1-dev
+sudo apt-get install g++
+sudo apt-get install libc6-dev
+sudo apt-get install glibc
+sudo apt-get install make
+sudo apt-get install bison
+sudo apt-get install flex
+sudo apt-get install freetds-dev
+sudo apt-get install libpcre3-dev
+./configure
+make
+sudo make install
+sudo chmod u+rwx /usr/local/apache2/conf/httpd.conf
+sudo vim /usr/local/apache2/conf/httpd.conf
+change listen to 8080
+sudo systemctl unmask apache2
+sudo service apache2 restart
+sudo systemctl start apache2
+sudo systemctl status apache2

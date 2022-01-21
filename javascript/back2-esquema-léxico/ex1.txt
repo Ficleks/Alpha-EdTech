@@ -1,0 +1,2 @@
+O esquema léxico de linguagem é lido da esquerda para direita e traduzido em uma sequência de elementos de entrada, como símbolos, 
+caracteres de controle, finalizadores de linha, comentários ou espaços em branco.

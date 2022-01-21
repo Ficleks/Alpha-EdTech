@@ -1,0 +1,25 @@
+.box1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .box2 {
+    display: flex;
+    justify-content: center;
+  }
+  .box3 {
+    display: flex;
+    justify-content: center;
+  }
+  .box4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+  }
+  h2{
+    text-align: center;
+  }
+  body {
+    background-image: url(https://wallpaperaccess.com/full/1547853.png) ;
+  }

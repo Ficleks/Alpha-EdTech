@@ -1,0 +1,9 @@
+.box1 {
+    width: 681px;
+    height: 681px;
+    margin: 10px;
+    padding: 0px;
+    background: url(https://scontent.fsjk2-1.fna.fbcdn.net/v/t1.6435-9/243240568_4215177071914104_3067721118122357658_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHQrbbFa7WV0QcVrykaxkN0CQq5m6cM0BwJCrmbpwzQHIKWaYg1YscrEuMPDZJGtcp2TR_szxvrFuNjgylA56HS&_nc_ohc=oyytP-Z4weMAX9GJhko&tn=wje5tnqZ3OgaoE-v&_nc_ht=scontent.fsjk2-1.fna&oh=5cb61ac3dcedd0d98a3e3ca99e7a8e6f&oe=61987D65);
+    border-radius: 400px;
+    box-shadow: 10px 5px 5px black;
+  }

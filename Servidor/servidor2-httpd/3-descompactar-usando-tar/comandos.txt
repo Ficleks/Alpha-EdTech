@@ -1,0 +1,2 @@
+sudo apt-get install bzip2
+tar xvf httpd-2.4.51.tar.bz2 (tar xvzf nao funciona)

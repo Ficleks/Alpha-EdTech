@@ -1,0 +1,21 @@
+ul{
+  font-family: cursive;
+  text-decoration: underline;
+  color: #1f6b7a;
+  padding-left: 2rem;
+  list-style-type: none;
+  }
+  li{
+  font-weight: bold;
+  padding-left: 2rem;
+  background-image: url(https://icon-library.com/images/alpha-icon/alpha-icon-11.jpg);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+  }
+  span{
+    font-family: cursive;
+    color: #e61919;
+    font-weight: 900;
+    text-decoration: underline overline black;
+  }

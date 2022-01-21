@@ -1,0 +1,73 @@
+1- HTML5 (4.01)
+
+2- Os documentos HTML consistem em uma árvore de elementos e texto. Cada elemento é denotado na origem por uma tag inicial , como " <body>", e uma tag final ,
+como " </body>". (Algumas tags de início e de fim podem, em certos casos, ser omitidas e estão implícitas em outras tags.)
+As tags devem ser aninhadas de forma que os elementos fiquem completamente dentro uns dos outros, sem sobreposição.
+<p>This is <em>very <strong>wrong</em>!</strong></p>
+<p>This <em>is <strong>correct</strong>.</em></p>
+
+3- Os atributos são colocados dentro da tag inicial e consistem em um nome e um valor , separados por um =caractere " ".
+O valor do atributo pode permanecer sem aspas se não contiver espaços em branco ASCII ou qualquer um " ' ` = <ou >.
+Caso contrário, deve ser citado com aspas simples ou duplas. O valor, junto com o =caractere " ", pode ser omitido completamente se o valor for uma string vazia.
+  <!-- empty attributes -->
+<input name=address disabled>
+<input name=address disabled="">
+
+<!-- attributes with a value -->
+<input name=address maxlength=200>
+<input name=address maxlength='200'>
+<input name=address maxlength="200">
+
+4- Não, as versões do HTML anteriores ao XHTML não faziam distinção entre maiúsculas e minúsculas. O HTML5 seguiu essa tradição e abandonou os requisitos rígidos de formatação do XHTML.
+Portanto, o HTML 5, diferentemente do XHTML, não diferencia maiúsculas de minúsculas. Isso significa que e <P> e <STRONG> são todos da mesma tag em HTML 5.
+
+5-Os agentes de usuário HTML analisam a marcação, transformando-a em uma árvore DOM (Document Object Model). Uma árvore DOM é uma representação na memória de um documento.
+As árvores DOM contêm vários tipos de nodes, em particular um DocumentType nodes, Element nodes, Text nodes, Comment nodes e, em alguns casos, ProcessingInstruction nodes.
+Como as árvores DOM são usadas como forma de representar documentos HTML quando são processados ​​e apresentados por implementações (especialmente implementações interativas como navegadores da web),
+esta especificação é principalmente expressa em termos de árvores DOM.
+Documentos HTML representam uma descrição independente de mídia do conteúdo interativo. Os documentos HTML podem ser renderizados em uma tela, ou por meio de um sintetizador de voz,
+ou em um display braille. Para influenciar exatamente como essa renderização ocorre, os autores podem usar uma linguagem de estilo, como CSS.
+
+ 6- (Esta é a respostya simples =>) Forma padronizada de representação de diferentes documentos, mídia e serviços de rede na internet, capaz de fornecer a cada documento um endereço único.
+(Resposta do spec.whatwg.org =>) A string is a valid non-empty URL if it is a valid URL string but it is not the empty string.
+A string is a valid URL potentially surrounded by spaces if, after stripping leading and trailing ASCII whitespace from it, it is a valid URL string.
+A string is a valid non-empty URL potentially surrounded by spaces if, after stripping leading and trailing ASCII whitespace from it, it is a valid non-empty URL.
+This specification defines the URL about:legacy-compat as a reserved, though unresolvable, about: URL, for use in DOCTYPEs in HTML documents when needed for compatibility with XML tools.
+This specification defines the URL about:html-kind as a reserved, though unresolvable, about: URL, that is used as an identifier for kinds of media tracks.
+This specification defines the URL about:srcdoc as a reserved, though unresolvable, about: URL, that is used as the URL of iframe srcdoc documents.
+
+7-O atributo charset serve para indicar o formato de codificação de caracteres utilizado no documento. ASCII, UTF-8, ANSI e ISO-8859-1 são exemplos de charsets.
+Pra cada caracter que a gente digita/lê no computador, existe uma representação dele em byte na memória. Um código para ele.
+Cada charset representa o caracter em memória de uma forma diferente. O charset UTF-8 é o que usamos na web atual e faz parte de um padrão chamado Unicode.
+A ideia é que com ele possamos representar qualquer caractere de qualquer idioma.
+
+8-UTF-8 (8-bit Unicode Transformation Format) é um tipo de codificação binária (Unicode) de comprimento variável criado por Ken Thompson e Rob Pike.
+Pode representar qualquer caractere universal padrão do Unicode, sendo também compatível com o ASCII. Por esta razão, está lentamente a ser adaptado como tipo de codificação padrão para e-mail,
+páginas web, e outros locais onde os caracteres são armazenados.
+A codificação baseada em Unicode, tal como UTF-8, oferece suporte para vários idiomas e assim sendo admite páginas e formulários em qualquer combinação de idiomas.
+Isso dispensa a necessidade de se criar uma lógica no servidor capaz de determinar a codificação para cada página servida ou para cada conjunto de dados recebidos de um formulário.
+Fica significantemente reduzida a complexidade própria do gerenciamento de um site ou aplicação multi-idiomas.
+A codificação Unicode, mais do que qualquer outra codificação, permite que muito mais idiomas sejam usados em uma única página.
+
+9-Elementos, atributos e valores de atributos em HTML são definidos (por esta especificação) para ter certos significados (semântica). Por exemplo,
+o ol elemento representa uma lista ordenada e o lang atributo representa o idioma do conteúdo.
+Essas definições permitem que processadores HTML, como navegadores da web ou mecanismos de pesquisa, apresentem e usem documentos e aplicativos em uma ampla variedade de contextos que o autor pode não ter considerado.
+Como o HTML transmite significado , em vez de apresentação, a mesma página também pode ser usada por um pequeno navegador em um telefone celular,
+sem qualquer alteração na página. Em vez de os títulos estarem em letras grandes como no desktop, por exemplo, o navegador do celular pode usar o mesmo tamanho de texto para a página inteira,
+mas com os títulos em negrito.
+Mas vai além das diferenças no tamanho da tela: a mesma página pode igualmente ser usada por um usuário cego usando um navegador baseado em síntese de fala, que em vez de exibir a página em uma tela,
+lê a página para o usuário, por exemplo, usando fones de ouvido . Em vez de um texto grande para os títulos, o navegador de voz pode usar um volume diferente ou uma voz mais lenta.
+Isso também não é tudo. Uma vez que os navegadores sabem quais partes da página são os títulos, eles podem criar um esboço do documento que o usuário pode usar para navegar rapidamente pelo documento,
+usando as teclas "pular para o próximo título" ou "pular para o título anterior". Esses recursos são especialmente comuns com navegadores de voz, onde os usuários de outra forma achariam muito difícil navegar rapidamente em uma página.
+Mesmo além dos navegadores, o software pode fazer uso dessas informações. Os mecanismos de pesquisa podem usar os títulos para indexar uma página com mais eficácia ou para fornecer links rápidos para subseções da página a partir de seus resultados.
+As ferramentas podem usar os títulos para criar um índice analítico (na verdade, é assim que o índice analítico dessa mesma especificação é gerado).
+4 exemplos de semântica são o <strong>/<b>, <hgroup>, <dl>/<dt> , <p>.
+
+10- O atributo lang (sem espaço para nome) especifica o idioma principal para o conteúdo do elemento e para qualquer um dos atributos do elemento que contenham texto.
+Seu valor deve ser uma tag de idioma BCP 47 válida ou a string vazia. Definir o atributo como uma string vazia indica que o idioma principal é desconhecido.
+Se esses atributos forem omitidos de um elemento, o idioma desse elemento será igual ao idioma de seu elemento pai, se houver.
+O atributo lang em nenhum namespace pode ser usado em qualquer elemento HTML .
+Já o comportamento da página se o valor resultante não for uma marca de idioma reconhecida, ele deve ser tratado como um idioma desconhecido com a marca de idioma fornecida,
+diferente de todos os outros idiomas. Para fins de ida e volta ou comunicação com outros serviços que esperam tags de idioma, os agentes do usuário devem passar tags de idioma desconhecido por meio de não modificados e marcados como sendo tags de idioma BCP 47,
+de modo que os serviços subsequentes não interpretem os dados como outro tipo de idioma Descrição.
+

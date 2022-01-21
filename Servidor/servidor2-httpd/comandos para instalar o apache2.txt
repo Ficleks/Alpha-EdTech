@@ -1,0 +1,5 @@
+./configure --prefix=/usr/local/apache2
+sudo make
+sudo make install
+vim /usr/local/apache2/conf/httpd.conf (add porta 8080 no Listen(+ um listen))
+/usr/local/apache2/bin/apachectl -k start

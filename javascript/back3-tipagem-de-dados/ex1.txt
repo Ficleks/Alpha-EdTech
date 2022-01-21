@@ -1,0 +1,2 @@
+A diferença da tipagem estática para dinâmica é que na dinâmica não é necessário declarar uma variável antes de sua atribuição, 
+o tipo será automaticamente determinado quando o programa for processado.

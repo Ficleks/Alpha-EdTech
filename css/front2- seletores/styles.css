@@ -1,0 +1,42 @@
+h1{
+    color: green;
+    font-size: 4em;
+    background-color: blue;
+    border: 5px solid pink;
+  }
+  .box {
+    padding: 10px;
+    width: calc(90% - 10px);
+    background-color: rebeccapurple;
+    color: white;
+  }
+  .outer {
+    border: 20px solid black;
+  }
+  #unique {
+    color: pink;
+  }
+  a[href="https://i.ytimg.com/vi/vb4zwTmwvpQ/maxresdefault.jpg"] {
+    color: red;
+    font-size: 2em;
+    }
+    a:hover {
+      color: pink;
+      font-size: 2em;
+      background-color: blue;
+      border: 5px solid green;
+    }
+    p::first-line {
+      color: brown;
+      font-size: 2em;
+    }
+    span {
+      color: yellow;
+      background-color: purple;
+    }
+    div > span {
+    background-color: red;
+    font-size: 2em;
+    color: blue;
+    
+}

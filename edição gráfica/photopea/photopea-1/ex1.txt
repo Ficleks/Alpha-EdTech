@@ -1,0 +1,2 @@
+Geralmente os prints salvam a imagem como JPEG, que é uma imagem baseada em bitmap (rasterizadas), ou seja, ele salva a cor dos bits na imagem,
+então caso haja redimensionamento de imagem acaba se perdendo qualidade. Já o PNG é vetorial, acaba sendo mais pesada.

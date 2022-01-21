@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-weight: lighter;
+    color: #1f6b7a;
+    font-size: 75px;
+    text-decoration: underline;
+  }
+  p{
+    text-align: center;
+    font-size: 30px;
+  }
+  span{
+    text-align: center;
+    font-family: cursive;
+    color: #e61919;
+    font-weight: 900;
+    font-size: 30px;
+    text-decoration: underline overline black;
+  }
+  a{
+    text-align: center;
+    font-family: cursive;
+    color: #1100cc;
+    font-weight: 900;
+    font-size: 50px;
+    text-decoration: underline dotted white;
+  }

@@ -1,0 +1,8 @@
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
+BR
+Sao Paulo
+Sao Jose dos Campos
+AlphaEdTech
+Aspirante
+192.168.15.6
+ficlek13@hotmail.com

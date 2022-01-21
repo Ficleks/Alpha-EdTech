@@ -1,0 +1,1 @@
+Argumentos passam objetos para uma função.  Os argumentos de uma função não estão limitados a strings e números.

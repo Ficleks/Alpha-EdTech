@@ -1,0 +1,18 @@
+1- configure: error: APR not found. please read the documentation
+RESOLUÇÃO: sudo apt-get install libapr1-dev libaprutil1-dev
+CONSULTA: https://stackoverflow.com/questions/13967114/configure-error-apr-not-found-please-read-the-documentation
+
+2- configure: error: C compiler cannot create executables
+RESOLUÇÃO: 
+sudo apt-get install g++
+sudo apt-get install libc6-dev
+sudo apt-get install glibc
+sudo apt-get install make
+sudo apt-get install bison
+sudo apt-get install flex
+sudo apt-get install freetds-dev
+CONSULTA: https://www.vivaolinux.com.br/dica/Corrigindo-o-erro-C-compiler-cannot-create-executables
+
+3- configura: error: pcre-config for libpcre not found. PCRE is required and available from http:pcre.org/
+RESOLUÇÃO: sudo apt-get install libpcre3-dev
+CONSULTA: https://stackoverflow.com/questions/10663180/apache-installation-libpcre-error

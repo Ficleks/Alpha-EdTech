@@ -1,0 +1,20 @@
+.wrapper {
+    border: 10px solid #75bdf0; 
+    width: 520px;
+    background-color:#a2b5c3;
+    }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    margin:-10px;
+        }
+  .box>*{
+    flex: 1 1 160px;
+    margin: 10px;
+  }
+    body {
+      background-image: url(https://wallpaperaccess.com/full/1547853.png) ;
+    }
+    h4{
+      color: green;
+    }

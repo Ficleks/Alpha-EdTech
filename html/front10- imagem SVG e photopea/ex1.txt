@@ -1,0 +1,2 @@
+Ele é extremamente escalável por ser vetorial, ou seja, há a possibilidade de alterar o tamanho da imagem sem perder resolução (qualidade de imagem).
+Em comparação a um arquivo comum o SVG gasta menos banda.

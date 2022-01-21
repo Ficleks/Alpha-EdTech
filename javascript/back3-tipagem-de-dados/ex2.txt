@@ -1,0 +1,2 @@
+Basicamente é a mesma coisa da tipagem estática e dinâmica, onde a dinâmica é considerada fraca por permitir que as variáveis possam intercambiar 
+seus tipos a qualquer momento e a estática é considerada forte por não permitir mudança nos tipos das variáveis.

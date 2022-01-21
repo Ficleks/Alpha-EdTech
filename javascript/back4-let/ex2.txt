@@ -1,0 +1,6 @@
+O escopo de uma variável é utilizado para definir o grau de ocultação da informação, assim é um contexto delimitante aos quais valores e expressões 
+serão associados. Uma variável declarada em uma função é normalmente local, o contexto define o escopo. 
+(Resumidamente, Escopo de uma variável é a sua ´visibilidade´ dentro do seu programa. Ex: Se vc declara uma variável dentro de um procedimento ou função, 
+você só pode usar essa variável dentro do próprio procedimento ou função, ou seja, o Escopo dessa variável é local. 
+Já se vc declarar uma variável na seção Implementation de uma unit, vc poderá usar essa variável em todos os procedimentos e funções desa unit, 
+então o Escopo dessa variável é Global).
