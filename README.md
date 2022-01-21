@@ -1,2 +1,2 @@
 # Alpha-EdTech
-Todas as atividades propostas pelo Alpha
+All activities proposed by Alpha
