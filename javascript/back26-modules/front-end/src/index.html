@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div id="record">
+        <label>Matrícula <input type="number" id="id"></label>
+        <label>Nome <input type="text" id="name"></label>
+        <label>Ramal <input type="number" id="ramal"></label>
+        <label>Email <input type="email" id="email"></label>
+        <label>Setor <input type="text" id="sector"></label>
+        <label>Data de Nascimento <input type="date" id="date"></label>
+        <button id="save" onclick="save()">Salvar</button>
+    </div>
+    <div class="button">
+        <input id="inputBirth" type="number">
+        <button id="birth" onclick="birthDay()">Birthday</button>
+    </div>
+    <div class="button">
+        <input id="inputSector" type="text">
+        <button id="sector" onclick="sector()">Sector</button>
+    </div>
+    <div class="button">
+        <input id="inputRamal" type="number">
+        <button id="ramal" onclick="ramal()">Ramal</button>
+    </div>
+    <div id="workers">
+
+    </div>
+</body>
+</html>

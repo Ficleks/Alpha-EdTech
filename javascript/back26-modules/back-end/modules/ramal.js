@@ -1,4 +1,5 @@
-import dataWorkers from "./data/workers.js";
+const dataWorkers = require("./data/workers.js");
+//const dataWorkers = require("../database.js");
 //console.log(dataWorkers)
 
 let numbers = []
@@ -12,3 +13,5 @@ dataWorkers.forEach(() => {
 numbers.sort()
 
 console.log(numbers)
+
+module.exports = numbers

@@ -5,7 +5,7 @@ const dataWorkers = [
         "ramal": "11987654131",
         "email": "vini@hotmail.com",
         "sector": "administrative",
-        "birthDate": "12",
+        "birthDate": "01-12-1989",
     },
     {
         "registration": 2,
@@ -13,7 +13,7 @@ const dataWorkers = [
         "ramal": "11945672307",
         "email": "ange@hotmail.com",
         "sector": "financial",
-        "birthDate": "3",
+        "birthDate": "05-03-1998",
     },
     {
         "registration": 3,
@@ -21,7 +21,7 @@ const dataWorkers = [
         "ramal": "11934561298",
         "email": "soph@hotmail.com",
         "sector": "RH",
-        "birthDate": "5",
+        "birthDate": "16-05-1987",
     },
     {
         "registration": 4,
@@ -29,7 +29,7 @@ const dataWorkers = [
         "ramal": "11909874532",
         "email": "carlos@hotmail.com",
         "sector": "RH",
-        "birthDate": "12",
+        "birthDate": "17-12-1998",
     },
     {
         "registration": 5,
@@ -37,8 +37,8 @@ const dataWorkers = [
         "ramal": "11965091276",
         "email": "gabriel@hotmail.com",
         "sector": "administrative",
-        "birthDate": "3",
+        "birthDate": "30-03-1987",
     },
 ]
 
-export default dataWorkers
+module.exports = dataWorkers;
