@@ -1,4 +1,4 @@
-const employees = []
+const games = []
 
 const apiUrl = "http://localhost:3000/"
 
@@ -23,17 +23,16 @@ function birthDay () {
 
 
 
-function birthDay () {
-    let length = 0
-    employees.forEach(() => {
-        let x = employees[length].date
-        x = x.split()
-        console.log(x)
-        length++
-        document.getElementById("workers").innerHTML += employees[0].date + " "
-    })
-    //fetch(`/birthDay`)
-}
+// function birthDay () {
+//     let length = 0
+//     games.forEach(() => {
+//         let x = games[length].game
+//         console.log(x)
+//         length++
+//         document.getElementById("workers").innerHTML += games[0].game + " "
+//     })
+//     //fetch(`/birthDay`)
+// }
 function sector (param) {
     param = document.getElementById('inputSector').value
     const sector = employees.filter(sector => sector.sector == param)
@@ -49,18 +48,20 @@ function sector (param) {
 function save () {
     const newElement = {}
     newElement.id = document.getElementById("id").value
-    newElement.name = document.getElementById("name").value
-    newElement.ramal = document.getElementById("ramal").value
-    newElement.email = document.getElementById("email").value
-    newElement.sector = document.getElementById("sector").value
-    newElement.date = document.getElementById("date").value
-    employees.push(newElement)
-    console.log(employees)
+    newElement.game = document.getElementById("game").value
+    newElement.year = document.getElementById("year").value
+    newElement.genre = document.getElementById("genre").value
+    newElement.multilayer = document.getElementById("multiplayer").value
+    newElement.offline = document.getElementById("offline").value
+    newElement.crossplataform = document.getElementById("crossplataform").value
+    games.push(newElement)
+    console.log(games)
     document.getElementById('id').value = ''
-    document.getElementById('name').value = ''
-    document.getElementById('ramal').value = ''
-    document.getElementById('email').value = ''
-    document.getElementById('sector').value = ''
-    document.getElementById('date').value = ''
+    document.getElementById('game').value = ''
+    document.getElementById('year').value = ''
+    document.getElementById('genre').value = ''
+    document.getElementById('multiplayer').value = ''
+    document.getElementById('offline').value = ''
+    document.getElementById('crossplataform').value = ''
 }
 

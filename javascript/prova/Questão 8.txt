@@ -1,0 +1,11 @@
+8ª Questão
+
+Iremos criar uma página que simule a venda de passagens de um microônibus.
+
+	
+Desafio:
+	Em uma página HTML apresente uma tabela contendo 2 colunas e 4 linhas representando os acentos do nosso microônibus.
+	Crie um formulário contendo os campos: número do assento, nome do passageiro e um botão de confirmar. 
+	Uma vez que confirme a inclusão do passageiro, marque aquela posição com a cor vermelha para simbolizar que está ocupada.
+	Os dados dos passageiros devem ser exibidos em uma tabela associados ao número do assento.
+	
