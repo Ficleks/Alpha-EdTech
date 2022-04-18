@@ -1,0 +1,8 @@
+{
+  "movies": [
+      {"name": "adam", "title": "PROJETO ADAM","subtitle":"qualquer coisa"},
+      {"name": "matrix", "title": "MATRIX RESSURECTION","subtitle":"qualquer coisa"},
+      {"name": "loki", "title": "LOKI","subtitle":"qualquer coisa"},
+      {"name": "batman", "title": "BATMAN","subtitle":"qualquer coisa"},
+  "users": []
+}
